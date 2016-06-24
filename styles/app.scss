@@ -14,7 +14,10 @@ nav {
   justify-content: center;
 }
 
-.logo {}
+.logo {
+  width: 10%;
+  height: 3rem;
+}
 
 .nav-words {
   display: flex;
@@ -24,6 +27,7 @@ nav {
 }
 
 .nashville{
+  color: inherit;
   text-decoration: none;
 }
 
@@ -108,19 +112,21 @@ h3 {
   margin: 0 1rem;
 }
 
-footer {
+.footer {
   display: flex;
   justify-content: center;
   background: black;
   margin-top: 2rem;
+  width: 100%;
+  padding: 0;
 }
 
 .icons {
   color: #fff;
-  font-size: 3rem;
+  font-size: 2rem;
   width: 60%;
   padding: 0;
-  margin: 1rem;
+  // margin: 1rem;
   display: flex;
   justify-content: space-around;
 }
