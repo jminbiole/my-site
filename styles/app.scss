@@ -5,6 +5,7 @@
 // @import 'font-awesome';
 @import 'box-sizing';
 
+
 nav {
   width: 100%;
   padding: 1rem;
@@ -82,17 +83,16 @@ h3 {
   font-size: 3.3rem;
 }
 
-
 footer {
   display: flex;
-  align-content: center;
+  justify-content: center;
   background: black;
 }
 
 .icons {
+  color: #fff;
+  font-size: 4.5rem;
+  width: 40%;
   display: flex;
   justify-content: space-between;
-  color: #fff;
-  font-size: 4rem;
-
 }
