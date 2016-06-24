@@ -23,6 +23,16 @@ nav {
   font-size: 1rem;
 }
 
+.nashville{
+  text-decoration: none;
+}
+
+.nashville:hover {
+  font-size: 1.2rem;
+  color: #17f112;
+
+}
+
 .top-o-page {
   text-align: center;
   padding: 3rem;
@@ -49,30 +59,25 @@ h6 {
 .projects {
   text-align: center;
   font-size: 2.5rem;
-  padding: 3rem;
+  padding: 2rem;
   margin: 0;
-  background: green;
 }
 
 .hero {
   display: flex;
   flex-direction: column;
-  margin: 4em;
+  margin: 0 4rem;
 }
 
 .left-block {
   display: flex;
   width: 100%;
-  font-size: 2rem;
+  font-size: 1.4rem;
+  margin: .5rem 0;
 }
 
-h4 {
-  // font-size: 1rem;
-  margin: 0;
-}
 .left-text {
-  padding: .5rem;
-  font-size: 1rem;
+  padding: 0 3rem;
   margin: 0;
 }
 
@@ -84,27 +89,38 @@ h4 {
 .right-block {
   display: flex;
   width: 100%;
-  font-size: 2rem;
+  font-size: 1.4rem;
+  margin: .5rem 0;
 }
 
 .right-text {
-  padding: 3rem;
+  padding: 0 3rem;
+  margin: 0;
+}
+
+.text-img_right {
+  padding: 0;
+  width: 50%;
 }
 
 h3 {
   font-size: 3.3rem;
+  margin: 0 1rem;
 }
 
 footer {
   display: flex;
   justify-content: center;
   background: black;
+  margin-top: 2rem;
 }
 
 .icons {
   color: #fff;
-  font-size: 4.5rem;
-  width: 40%;
+  font-size: 3rem;
+  width: 60%;
+  padding: 0;
+  margin: 1rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }

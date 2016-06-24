@@ -14,11 +14,54 @@
     padding: 0rem;
     margin: 0;
     font-size: 1rem;
-    background: green;
-
     width: 100%;
   }
 
+  .hero {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .left-block {
+    display: flex;
+    width: 100%;
+    font-size: 1.4rem;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .left-text {
+    padding: 0;
+    margin: 0;
+  }
+
+  .text-img_left {
+    margin: 1;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .right-block {
+    display: flex;
+    width: 100%;
+    font-size: 1.4rem;
+    margin: .5rem 0;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .right-text {
+    padding: 0;
+    margin: 0;
+  }
+
+  .text-img_right {
+    margin: 1;
+    width: 100%;
+    justify-content: center;
+  }
 
 
 
