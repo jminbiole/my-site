@@ -26,7 +26,7 @@ nav {
   font-size: 1rem;
 }
 
-.nashville{
+.nashville {
   color: inherit;
   text-decoration: none;
 }
@@ -70,7 +70,7 @@ h6 {
 .hero {
   display: flex;
   flex-direction: column;
-  margin: 0 4rem;
+  margin: 0;
 }
 
 .left-block {
@@ -81,12 +81,13 @@ h6 {
 }
 
 .left-text {
-  padding: 0 3rem;
-  margin: 0;
+  // padding: 0 1rem;
+  margin: 1rem;
+  width: 50%;
 }
 
 .text-img_left {
-  padding: 0;
+  padding-right: 2rem;
   width: 50%;
 }
 
@@ -98,12 +99,13 @@ h6 {
 }
 
 .right-text {
-  padding: 0 3rem;
-  margin: 0;
+  // padding: 0 1rem;
+  margin: 1rem;
+  width: 50%;
 }
 
 .text-img_right {
-  padding: 0;
+  padding-left: 2rem;
   width: 50%;
 }
 
@@ -116,7 +118,7 @@ h3 {
   display: flex;
   justify-content: center;
   background: black;
-  // margin-top: 2rem;
+  margin-top: 2rem;
   width: 100%;
 }
 
@@ -130,6 +132,10 @@ h3 {
   justify-content: space-around;
 }
 
+
+
+
+
 .block-top {
   display: flex;
   justify-content: center;
@@ -137,12 +143,28 @@ h3 {
 }
 
 .left-pic {
-  margin: 1rem;
-
+  position: relative;
 }
 
-.right-pic {
+.left-pic_item {
   margin: 1rem;
+}
+
+.right-pic_item {
+  margin: 1rem;
+}
+
+.hovered-image {
+  position: absolute;
+  display: none;
+  color: white;
+  width: inherit;
+  font-size: 1.4rem;
+  left: 30%;
+}
+
+.left-pic:hover .hovered-image {
+  display: block;
 }
 
 .block-bottom {
