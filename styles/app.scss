@@ -116,9 +116,8 @@ h3 {
   display: flex;
   justify-content: center;
   background: black;
-  margin-top: 2rem;
+  // margin-top: 2rem;
   width: 100%;
-  padding: 0;
 }
 
 .icons {
@@ -129,4 +128,26 @@ h3 {
   // margin: 1rem;
   display: flex;
   justify-content: space-around;
+}
+
+.block-top {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.left-pic {
+  margin: 1rem;
+
+}
+
+.right-pic {
+  margin: 1rem;
+}
+
+.block-bottom {
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  margin-bottom: 3rem;
 }
