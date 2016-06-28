@@ -197,9 +197,18 @@ h3 {
   left: 20%;
 }
 
+.hovered-image_btm-right {
+  position: absolute;
+  display: none;
+  color: #fff;
+  width: 100%;
+  font-size: 1.4rem;
+  left: 20%;
+}
 
 
-.block-bottom {
+
+.block-btm {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -208,9 +217,10 @@ h3 {
 }
 
 .left-pic_btm {
-  width: 100%;
+  width: 50%;
   display: flex;
   justify-content: center;
+  position: relative;
 
   &:hover {
   .hovered-image_btm-left {
@@ -225,7 +235,7 @@ h3 {
 
 .left-pic_item-btm {
   margin: .5rem;
-  width: 50%;
+  width: inherit;
 }
 
 .hovered-image_btm-left {
@@ -244,7 +254,6 @@ h3 {
 .right-pic_btm {
   position: relative;
   width: 50%;
-  margin: 0;
 }
 
 .right-pic_item-btm {
