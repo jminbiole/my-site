@@ -140,36 +140,123 @@ h3 {
   display: flex;
   justify-content: center;
   position: relative;
+  width: 80%;
 }
 
 .left-pic {
+  width: 50%;
+  display: flex;
+  justify-content: center;
   position: relative;
+
+  &:hover {
+  .hovered-image_top-left {
+    display: flex;
+  }
+  }
+}
+
+.left-parent {
+  width: 100%;
 }
 
 .left-pic_item {
-  margin: 1rem;
+  margin: .5rem;
+  width: inherit;
+}
+
+.hovered-image_top-left {
+  position: absolute;
+  display: none;
+  color: #fff;
+  width: 100%;
+  font-size: 1.4rem;
+  left: 20%;
+}
+
+.right-parent {
+  width: 100%;
+}
+
+.right-pic {
+  position: relative;
+  width: 50%;
 }
 
 .right-pic_item {
-  margin: 1rem;
+  margin: .5rem;
+  width: 100%;
 }
 
-.hovered-image {
+.hovered-image_top-right {
   position: absolute;
   display: none;
-  color: white;
-  width: inherit;
+  color: #fff;
+  width: 100%;
   font-size: 1.4rem;
-  left: 30%;
+  left: 20%;
 }
 
-.left-pic:hover .hovered-image {
-  display: block;
-}
+
 
 .block-bottom {
   display: flex;
+  flex-direction: row;
   justify-content: center;
-  flex-direction: row-reverse;
   margin-bottom: 3rem;
+  width: 80%;
+}
+
+.left-pic_btm {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  &:hover {
+  .hovered-image_btm-left {
+    display: flex;
+  }
+  }
+}
+
+.left-parent_btm {
+  width: 100%;
+}
+
+.left-pic_item-btm {
+  margin: .5rem;
+  width: 50%;
+}
+
+.hovered-image_btm-left {
+  position: absolute;
+  display: none;
+  color: #fff;
+  width: 100%;
+  font-size: 1.4rem;
+  left: 20%;
+}
+
+.right-parent_btm {
+  width: 100%;
+}
+
+.right-pic_btm {
+  position: relative;
+  width: 50%;
+  margin: 0;
+}
+
+.right-pic_item-btm {
+  margin: .5rem;
+  width: 100%;
+}
+
+.hovered-image_btm-right {
+  position: absolute;
+  display: none;
+  color: #fff;
+  width: 100%;
+  font-size: 1.4rem;
+  left: 20%;
 }
