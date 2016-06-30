@@ -70,7 +70,7 @@ h6 {
 .hero {
   display: flex;
   flex-direction: column;
-  margin: 0;
+  margin: 0 2rem;
 }
 
 .left-block {
@@ -118,7 +118,7 @@ h3 {
   display: flex;
   justify-content: center;
   background: black;
-  margin-top: 2rem;
+  margin-top: 4rem;
   width: 100%;
 }
 
@@ -127,7 +127,7 @@ h3 {
   font-size: 2rem;
   width: 60%;
   padding: 0;
-  // margin: 1rem;
+  margin: 1rem;
   display: flex;
   justify-content: space-around;
 }
@@ -140,45 +140,22 @@ h3 {
 }
 
 .left-pic {
-  width: 30%;
+  width: 25%;
   display: flex;
-  margin: 0 1rem;
+  margin: .5rem 1rem;
   position: relative;
-}
-
-.left-parent {
-  width: 100%;
 }
 
 .left-pic_item {
   width: 100%;
   object-fit: fill;
   height: 20rem;
-
-  &:hover {
-    .hovered-image_top-left {
-      display: flex;
-    }
-  }
-}
-
-.hovered-image_top-left {
-  position: absolute;
-  display: none;
-  color: #fff;
-  width: 100%;
-  font-size: 1.4rem;
-  left: 20%;
-}
-
-.right-parent {
-  width: 100%;
 }
 
 .right-pic {
-  width: 50%;
+  width: 40%;
   display: flex;
-  margin: 0 1rem;
+  margin: .5rem 1rem;
   position: relative;
 }
 
@@ -186,30 +163,6 @@ h3 {
   width: 100%;
   height: 20rem;
   object-fit: fill;
-
-  &:hover {
-    .hovered-image_top-right {
-      display: flex;
-    }
-  }
-}
-
-.hovered-image_top-right {
-  position: absolute;
-  display: none;
-  color: #fff;
-  width: 100%;
-  font-size: 1.4rem;
-  left: 20%;
-}
-
-.hovered-image_btm-right {
-  position: absolute;
-  display: none;
-  color: #fff;
-  width: 100%;
-  font-size: 1.4rem;
-  left: 20%;
 }
 
 .block-btm {
@@ -220,21 +173,11 @@ h3 {
   width: 100%;
 }
 
-.left-pic_btm {
-  width: 30%;
+.right-pic_item-btm {
   display: flex;
-  margin: 0 2rem;
-  position: relative;
-
-  &:hover {
-    .hovered-image_btm-left {
-      display: flex;
-    }
-  }
-}
-
-.left-parent_btm {
   width: 100%;
+  height: 20rem;
+  object-fit: fill;
 }
 
 .left-pic_item-btm {
@@ -243,42 +186,27 @@ h3 {
   object-fit: fill;
 }
 
-.right-parent_btm {
-  width: 100%;
-}
-
-.right-pic_btm {
-  position: relative;
-  width: 50%;
-  display: flex;
-}
-
-.right-pic_item-btm {
-  display: flex;
-  width: 100%;
-  height: 20rem;
-  object-fit: fill;
-
-  &:hover {
+.left-pic, .right-pic {
+  &:hover .hover-text {
     display: flex;
+    flex-direction: column;
   }
 }
 
-.hovered-image_btm-left {
-  position: absolute;
-  // display: none;
-  color: #fff;
-  width: 100%;
-  font-size: 1.4rem;
-  left: 20%;
-  background: rgba(0,0,0,0.5);
-}
-
-.hovered-image_btm-right {
+.hover-text {
   position: absolute;
   display: none;
   color: #fff;
   width: 100%;
-  font-size: 1.4rem;
-  left: 20%;
+  font-size: 1rem;
+  top: 0%;
+  left: 0%;
+  background: rgba(0,0,0,0.7);
+  margin: 0;
+  height: 100%;
+  padding: 1rem;
+}
+
+span {
+  font-size: 2.5rem;
 }
