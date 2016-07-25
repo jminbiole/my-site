@@ -1,4 +1,4 @@
-@media screen and (max-width: 525px) {
+@media screen and (max-width: 600px) {
     nav {
         display: flex;
         width: 100%;
@@ -34,16 +34,19 @@
         flex-wrap: wrap;
     }
     .project-text {
-        flex-grow: 1;
         width: 100%;
     }
     .project-frame {
-        flex-grow: 1;
-        width: 100%;
-        padding: 1rem;
+      height: 15rem;
+      width: 100%;
+    }
+    .project-frame__pic {
+      width: 100%;
+      height: auto;
+
     }
 }
-@media screen and (max-width: 900px) and (min-width: 526px) {
+@media screen and (max-width: 1000px) and (min-width: 601px) {
     nav {
         display: flex;
         width: 100%;
@@ -80,17 +83,20 @@
     .project-text {
         width: 50%;
     }
-    .project-frame {
-        width: 50%;
-        position: relative;
-        overflow: hidden;
-    }
-    .project-img {
-      position: absolute;
-      height: 100%;
-      width: 100%;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-    }
+  .project-frame {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+
+  &__pic {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+  }
+}
 }

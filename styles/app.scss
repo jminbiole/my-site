@@ -92,10 +92,15 @@ h6 {
   margin: 1rem;
 }
 .project-frame {
-  margin: 1rem;
-}
-.project-img {
   width: 100%;
+  position: relative;
+
+  &__pic {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+}
 }
 
 h3 {
@@ -109,16 +114,20 @@ h3 {
   background: black;
   margin-top: 4rem;
   width: 100%;
+  padding: 1rem;
 }
 
-.icons {
+.iconContainer {
   color: #fff;
   font-size: 2rem;
-  width: 60%;
   padding: 0;
-  margin: 1rem;
+  margin: 1rem 2rem;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+}
+.icon {
+  margin: 1rem 2rem;
+
 }
 
 .iconLinks {
