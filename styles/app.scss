@@ -137,6 +137,10 @@ h3 {
     transform: scale(1.2);
   }
 }
+.block-container {
+  max-width: 65rem;
+  margin: auto;
+}
 
 .block-top {
   display: flex;
