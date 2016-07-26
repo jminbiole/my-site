@@ -80,6 +80,7 @@ h6 {
   display: flex;
   width: 100%;
   font-size: 1.4rem;
+  margin: 0 (-1rem);
 }
 
 .project-row--reverse {
@@ -94,6 +95,7 @@ h6 {
 .project-frame {
   width: 100%;
   position: relative;
+  margin: 1rem;
 
   &__pic {
   position: absolute;
@@ -147,10 +149,11 @@ h3 {
   justify-content: center;
   position: relative;
   width: 100%;
+  margin: 0 (-1rem);
 }
 
 .left-pic {
-  width: 25%;
+  width: calc(100% / 3 - 2rem);
   display: flex;
   margin: 0.5rem 1rem;
   position: relative;
@@ -163,7 +166,7 @@ h3 {
 }
 
 .right-pic{
-  width: 50%;
+  width: calc(100% * 2 / 3 - 2rem);
   display: flex;
   margin: 0.5rem 1rem;
   position: relative;
@@ -179,7 +182,7 @@ h3 {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin: 1rem 0;
+  margin: 0 (-1rem);
   width: 100%;
 }
 
