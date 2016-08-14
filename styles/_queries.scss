@@ -1,0 +1,102 @@
+@media screen and (max-width: 600px) {
+    nav {
+        display: flex;
+        width: 100%;
+    }
+    .nav-words {
+        display: flex;
+        color: white;
+        padding: 0 1rem;
+        font-size: 1rem;
+        width: 100%;
+        text-align: center;
+    }
+    h1 {
+        text-align: center;
+        padding: 0rem;
+        margin: 0;
+        font-size: 1rem;
+        width: 100%;
+    }
+    .bigger-hero {
+      padding: 0;
+    }
+    .hero {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .project-row {
+        display: flex;
+        width: 100%;
+        font-size: 1.4rem;
+        flex-wrap: wrap;
+    }
+    .project-text {
+        width: 100%;
+    }
+    .project-frame {
+      height: 15rem;
+      width: 100%;
+    }
+    .project-frame__pic {
+      width: 100%;
+      height: auto;
+
+    }
+}
+@media screen and (max-width: 1000px) and (min-width: 601px) {
+    nav {
+        display: flex;
+        width: 100%;
+    }
+    .nav-words {
+        display: flex;
+        color: white;
+        padding: 0 1rem;
+        font-size: 1rem;
+        width: 100%;
+        text-align: center;
+    }
+    h1 {
+        text-align: center;
+        padding: 0rem;
+        margin: 0;
+        font-size: 1rem;
+        width: 100%;
+    }
+    .bigger-hero {
+      padding: 0;
+    }
+    .hero {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .project-row {
+        display: flex;
+        width: 100%;
+        font-size: 1.4rem;
+    }
+    .project-text {
+        width: 50%;
+    }
+  .project-frame {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+
+  &__pic {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+  }
+}
+}
